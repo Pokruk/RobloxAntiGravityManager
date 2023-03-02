@@ -5,15 +5,10 @@ Usefull roblox service-like ModuleScript to help disable gravity for models or p
 
 
 Example:
-Disabling gravity for every player
+Disabling gravity for part
 ```lua
-local Players = game:GetService("Players")
-
 local AntiGravityManager = require(path.to.module)
+local part = path.to.part
 
-Players.PlayerAdded:Connect(function(player)
-	player.CharacterAdded:Connect(function(character)
-		AntiGravityManager:disableGrav(character)
-	end)
-end)
+AntiGravityManager:disableGrav(part)
 ```
