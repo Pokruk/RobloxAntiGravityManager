@@ -1,7 +1,7 @@
 **Use at your own risk**
 
 # RobloxAntiGravityManager
-Usefull roblox service-like ModuleScript to help disable gravity for models or parts
+Useful roblox service-like ModuleScript to help disable gravity for models or parts
 
 
 Example:
